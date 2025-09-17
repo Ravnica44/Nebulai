@@ -1,3 +1,4 @@
+```shell
 # 1️⃣ Install QEMU to run ARM64 containers on your host
 docker run --rm --privileged multiarch/qemu-user-static --reset -p yes
 
@@ -13,3 +14,4 @@ docker run -d --platform linux/arm64 \
 
 # 4️⃣ Follow the container logs
 docker logs -f verifier
+```
